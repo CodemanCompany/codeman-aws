@@ -9,3 +9,5 @@
 # Init
 aws configure
 
+# Create AMI
+aws ec2 create-image --instance-id "ID" --name "Name" --no-reboot
