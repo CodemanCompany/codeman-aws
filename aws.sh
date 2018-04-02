@@ -9,5 +9,8 @@
 # Init
 aws configure
 
+# Profile
+aws configure --profile [codeman]
+
 # Create AMI
 aws ec2 create-image --instance-id "ID" --name "Name" --no-reboot
